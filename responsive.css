@@ -1,0 +1,110 @@
+@media(max-width:991px){
+    .strict::after{
+        width: 65%;
+    }
+}
+@media(max-width:768px){
+    .strict::after{
+        width: 65%;
+        top: 43%;
+    }
+    .strict h2{
+        padding: 180px 0 50px;
+    }
+    .strict p{
+        padding-bottom: 45px;
+    }
+    .click{
+        padding-bottom: 120px;
+    }
+    .simple h2{
+        font-size: 35px;
+    }
+    .nav ul li a{
+        font-size: 15px;
+        padding: 10px;
+    }
+    #send{
+        left: 0;
+        top: 30%;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+@media(max-width:562px){
+    .strict::after{
+        width: 65%;
+        top: 38%;
+    }
+    .strict h2{
+        padding: 120px 0 35px;
+    }
+    .strict p{
+        padding-bottom: px;
+    }
+    .click{
+        padding-bottom: 80px;
+    }
+    .simple h2{
+        font-size: 30px;
+    }
+    .nav{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .strict h2{
+        font-size: 90px;
+    }
+    .clean{
+        flex-wrap: wrap;
+    }
+    .showcase h2{
+        font-size: 30px;
+    }
+    .team-sections{
+        padding:4px 0; 
+    }
+    .team-1, .team-2{
+        flex-wrap: wrap;
+    }
+    #subscribe{
+        font-size: 13px;
+    } 
+}
+@media(max-width:490px){
+    .strict::after{
+        width: 65%;
+        top: 35%;
+    }
+    .strict h2{
+        font-size: 60px;
+    }
+    .simple h2{
+        font-size: 22px;
+    }
+    .clean h3{
+        font-size: 18px;
+    }
+    .showcase h2{
+        font-size: 25px;
+    }
+    .team-sections{
+        padding:20px 0; 
+    }
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bars{
+        padding-top: 20px;
+    }
+    .bars-menu{
+        font-size: 10px;
+    }
+}
+
+
+
